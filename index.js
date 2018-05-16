@@ -8,3 +8,7 @@ return someValue - 42
 function distanceFromHqInFeet(someValue) {
   return distanceFromHqInBlocks(someValue)*264
 }
+function distanceTravelledInFeet(someValue, endValue) {
+  const distance = distanceFromHqInBlocks(someValue)*264 - distanceFromHqInBlocks(endValue)*264
+  return distance
+}
