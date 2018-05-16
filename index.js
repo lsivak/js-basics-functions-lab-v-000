@@ -12,7 +12,6 @@ function distanceTravelledInFeet(someValue, endValue) {
   return distanceFromHqInBlocks(endValue)*264 - distanceFromHqInBlocks(someValue)*264
 }
 function calculatesFarePrice(start, destination) {
-  const start === someValue
   if(distanceTravelledInFeet(start, destination) > 400) {
   return 0
 // } elsif (distanceTravelledInFeet(someValue, endValue) > 2000) {
