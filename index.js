@@ -9,6 +9,5 @@ function distanceFromHqInFeet(someValue) {
   return distanceFromHqInBlocks(someValue)*264
 }
 function distanceTravelledInFeet(someValue, endValue) {
-  const distance = distanceFromHqInBlocks(endValue)*264 - distanceFromHqInBlocks(someValue)*264 
-  return distance
+  return distanceFromHqInBlocks(endValue)*264 - distanceFromHqInBlocks(someValue)*264
 }
