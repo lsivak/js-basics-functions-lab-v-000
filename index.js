@@ -14,12 +14,12 @@ function distanceTravelledInFeet(someValue, endValue) {
 function calculatesFarePrice(start, destination) {
   if(distanceTravelledInFeet(start, destination) < 400) {
   return 0
-} if(distanceTravelledInFeet(start, destination) < 2000)
+} if(distanceTravelledInFeet(start, destination) < 2000 ){
   return (distanceTravelledInFeet(start, destination) - 400)*.02
-//   } elsif (distanceTravelledInFeet(someValue, endValue) > 2000) {
-//     return 25
-//   } else {
-//     return 'cannot travel that far'
-// }
+} if (distanceTravelledInFeet(start, destination) > 2000) {
+    return 25
+  } else {
+    return 'cannot travel that far'
+}
 
 }
