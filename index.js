@@ -1,10 +1,9 @@
 function distanceFromHqInBlocks(someValue) {
-  const hq = 42 {
-    if someValue >= hq
-const distance = hq - someValue
+    if someValue >= 42
+const distance = 42 - someValue
 return distance
 } else {
-  const distance = someValue - hq
+  const distance = someValue - 42
   return distance
 }
 }
