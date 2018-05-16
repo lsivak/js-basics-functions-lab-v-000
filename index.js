@@ -5,4 +5,6 @@ return someValue - 42
   return 42 - someValue
 }
 }
-function distanceFromHqInFeet()
+function distanceFromHqInFeet(someValue) {
+  return distanceFromHqInBlocks(someValue)*264
+}
