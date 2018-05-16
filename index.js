@@ -14,12 +14,13 @@ function distanceTravelledInFeet(someValue, endValue) {
 function calculatesFarePrice(start, destination) {
   if(distanceTravelledInFeet(someValue, endValue) > 400) {
   return 0
-} elsif (distanceTravelledInFeet(someValue, endValue) > 2000) {
-  return (1600 - (distanceTravelledInFeet(someValue, endValue))*2 
-  } elsif (distanceTravelledInFeet(someValue, endValue) > 2000) {
-    return 25 
-  } else {
-    return 'cannot travel that far'
+// } elsif (distanceTravelledInFeet(someValue, endValue) > 2000) {
+//   return (1600 - (distanceTravelledInFeet(someValue, endValue))*2
+//   } elsif (distanceTravelledInFeet(someValue, endValue) > 2000) {
+//     return 25
+//   } else {
+//     return 'cannot travel that far'
+// }
 }
 }
-}
+
