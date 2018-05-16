@@ -5,4 +5,4 @@ return = someValue - 42
   return = 42 - someValue
 }
 }
-function distanceFromHqInFeet()
+// function distanceFromHqInFeet()
