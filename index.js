@@ -1,5 +1,5 @@
 function distanceFromHqInBlocks(someValue) {
-const distance = 42 - someValue
+const distance = someValue - 42
   return distance
 
 }
