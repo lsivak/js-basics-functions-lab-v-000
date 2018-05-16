@@ -5,6 +5,6 @@ const distance = hq - someValue
 return distance
 } else {
   const distance = someValue - hq
-  return distance
+  return "${distance} blocks"
 }
 }
